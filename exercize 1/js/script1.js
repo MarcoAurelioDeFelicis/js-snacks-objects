@@ -60,7 +60,7 @@ const cars = [
      modello: 'Punto',
      alimentazione: 'gpl'
     }
-]ss
+]
 
 const benzina = []
 const diesel = []
