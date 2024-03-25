@@ -64,24 +64,23 @@ const cars = [
 
 const benzina = []
 const diesel = []
-const leAltre = []
+const altro = []
 
 for (let i = 0; i < cars.length; i++) {
     const car = cars[i]
 
 
-    if (car.alimentazione === 'Benzina') {
-        benzina.push(car)
-        
-    }else if (cars.alimentazione === 'Diesel') {
+    if (car.alimentazione === 'Diesel') {
         diesel.push(car)
+        
+    } else if (car.alimentazione === 'Benzina' ) {
+        benzina.push(car)
 
-    }else {
-        leAltre.push(car)
-    }
-    
+    } else {
+        altro.push(car)
+    }    
 }
 
 console.log(benzina)
 console.log(diesel)
-console.log(leAltre)
+console.log(altro)
