@@ -1,4 +1,4 @@
-console.log ('JS Snacks Object')
+ 
 
     // Snack 1
 //Crea un array composto da 10 automobili. Ogni oggetto automobile avrà le seguenti proprietà: marca,
