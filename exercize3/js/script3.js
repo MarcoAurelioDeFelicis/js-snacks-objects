@@ -37,6 +37,7 @@ const mammiferi = []
 
 for (let i = 0; i < animali.length; i++) {
     const specie = animali[i]
+    console.log(i, specie.nome, specie.classe)
 
 
     if (specie.classe === 'Mammifero') {
